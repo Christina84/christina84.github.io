@@ -1,0 +1,202 @@
+* {
+    /*aligns all elements in the documents to the centre*/
+    text-align: center;
+}
+
+
+body {
+    /*sets cute starry gif as background!*/
+    background-image: url(starrygif.gif);
+}
+
+
+
+h1 {
+    /*styles the headers with the cloud backgrounds*/
+    background-image: url(pincloudbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+
+    padding: 80px 20px 80px 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #66003d;
+    
+}
+
+.notes {
+    /*notes header style*/
+    color: #66003d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffb7c5;
+
+    border: #66003d solid 2px;
+    padding: 0px;
+    margin: 2% 40%;
+}
+
+nav {
+    /*horizontal navigation bar*/
+    background-color: #ffb7c5;
+    text-align: center;
+
+    padding: 0px 0px;
+    font-size: 15px;
+    margin: 2% 30%;
+}
+
+button {
+    /*styles individual button*/
+    padding: 10px 10px 10px 10px;
+    border: none;
+    background: none;
+
+    color: #66003d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li :hover {
+    /*changes style when button is being hovered over by mouse*/
+    background-color: #66003d;
+    color: #ffffff;
+}
+
+
+nav ul li {
+    /*sets links horizontal and removes the default button style*/
+    display: inline;
+    text-decoration: none;
+}
+
+.resume {
+    /*styles resume header*/
+    background-image: url(pincloudbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+
+    padding: 70px 20px 70px 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #66003d;
+}
+
+.introduction {
+    /*styles introfduction paragraph*/
+    color: #66003d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #ffb7c5;
+    border: #66003d solid 2px;
+
+    margin: 1% 25%;
+}
+
+ul > li {
+    /*styles language list*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #66003d;
+    font-weight: 800;
+    font-size: 13px;
+
+    list-style-type: none;
+}
+
+.languages {
+    /*styles background behind laguage list*/
+    border: #66003d solid 2px;
+    background-color: #ffb7c5;
+
+    padding-right: 80px;
+    padding-left: 18px;
+    margin: 1% 40%;
+}
+
+.education {
+    /*styles education paragraph*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #66003d;
+    
+    background-color: #ffb7c5;
+    border: #66003d solid 2px;
+
+    margin: 1% 25%;
+}
+
+.work {
+    /*styles work experience paragraph*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #66003d;
+
+    background-color: #ffb7c5;
+    border: #66003d solid 2px;
+
+    margin: 1% 25%;
+}
+
+.div1 > p {
+    /* snippet style taken from: https://stackoverflow.com/questions/2820453/display-html-snippets-in-html 
+    (with some adjustment)*/
+    background: #f4f4f4;
+    border: 1px solid #ffb7c5;
+    border-left: 3px solid #f36d33;
+    color: #666;
+
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+
+
+
+}
+
+.back {
+    /*styles back button on cheat sheet example pages*/
+    background-color: #ffb7c5;
+    text-align: center;
+
+    padding: 0px 0px;
+    font-size: 15px;
+    margin: 2% 30%;
+}
+
+a > button:hover {
+    /*button style when hovered over*/
+    background-color: #66003d;
+    color: #ffffff;
+}
+
+
+footer {
+    /*style footer*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffb7c5;
+    font-size: 7px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: #ffb7c5 solid 2px;
+}
+
+cite > a {
+    /*style link in foooter*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffb7c5;
+    font-size: 7px;
+
+}
+

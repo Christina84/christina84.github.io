@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Personal Site Christina</title>
+    
+  
+    <link rel="stylesheet" href="styles.css">
+  
+  </head>
+
+<body>
+
+  
+  <div class="div1">
+
+    <!--Set back button to main page-->
+    <div class="back">
+      <a href="index.html"><button>Back</button></a>
+    </div>
+
+
+    <!--syntax examples-->
+    <p>
+      /*basic select query syntax*/<br>
+      SELECT column1, column2, ...<br>
+      FROM table_name;<br>
+      WHERE conditionsl<br>
+    </p>
+
+    <!--syntax example-->
+    <P>
+      /*select distinct returns no duplicate table values*/<br>
+      SELECT DISTINCT column1, column2, ...<br>
+      FROM table_name;<br>
+    </P>
+
+    <!--syntax example-->
+    <p>
+      /*insert values into table syntax*/<br>
+      INSERT INTO table_name (column1, column2, column3, ...)<br>
+      VALUES (value1, value2, value3, ...);<br>
+    </p>
+
+    <!--syntax example-->
+    <p>
+      /*update table values*/<br>
+      UPDATE table_name<br>
+      SET column1 = value1, column2 = value2, ...<br>
+      WHERE condition;<br>
+    </p>
+
+    <!--syntax example-->
+    <P>
+      /*delete rows from a table*/<br>
+      DELETE FROM table_name WHERE condition;<br>
+    </P>
+
+    <h1>
+      Personal Example
+    </h1>
+
+
+    <!--function example-->
+    <p>
+      /*gets all transactions from for store between one date and another*/<br>
+      create function dbo.GetTransactionCertainDate (@BeginDate as datetime, @EndDate as datetime)<br>
+      returns table<br>
+      as<br>
+      begin<br>
+        select CustomerID, DateOfTransaction<br>
+        from Transactions<br>
+        where DateOfTransaction between @BeginDate and @EndDate<br>
+      end<br>
+      go<br>
+    </p>
+
+  </div>
+
+
+  <footer>
+    <section>
+        <cite id="cite"><sup>1</sup> basic sql syntax examples from: <a href="https://www.w3schools.com/sql">W3 Schools</a></cite>
+    </section>
+  </footer>
+
+</body>
+</html>
